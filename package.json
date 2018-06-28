@@ -1,0 +1,36 @@
+{
+  "name": "ginit",
+  "version": "1.0.0",
+  "description": "Avoid repetitve task when setting up git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3dw1nM0535/ginit.git"
+  },
+  "keywords": [
+    "Git",
+    "Simple",
+    "Init"
+  ],
+  "author": "Edwin Moses",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3dw1nM0535/ginit/issues"
+  },
+  "homepage": "https://github.com/3dw1nM0535/ginit#readme",
+  "dependencies": {
+    "@octokit/rest": "^15.9.3",
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.0",
+    "inquirer": "^6.0.0",
+    "lodash": "^4.17.10",
+    "minimist": "^1.2.0",
+    "simple-git": "^1.96.0",
+    "touch": "^3.1.0"
+  }
+}
